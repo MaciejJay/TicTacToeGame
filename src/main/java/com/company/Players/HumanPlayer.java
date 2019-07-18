@@ -1,3 +1,8 @@
+package com.company.Players;
+
+import com.company.BoardPieces.Board;
+import com.company.BoardPieces.Piece;
+
 import java.util.Scanner;
 
 public class HumanPlayer extends Player {
@@ -7,7 +12,7 @@ public class HumanPlayer extends Player {
     }
 
     @Override
-    public int makeMove() {
+    public int makeMove(Board board) {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }

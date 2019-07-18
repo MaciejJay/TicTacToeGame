@@ -1,3 +1,5 @@
+package com.company.BoardPieces;
+
 public class OPiece extends Piece {
     @Override
     public char getSymbol() {

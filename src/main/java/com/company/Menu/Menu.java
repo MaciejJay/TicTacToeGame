@@ -1,9 +1,11 @@
+package com.company.Menu;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
-    private List<String> menuElements = new ArrayList<String>();
+    private List<String> menuElements = new ArrayList<>();
 
     public void printMenu() {
         int i = 1;
