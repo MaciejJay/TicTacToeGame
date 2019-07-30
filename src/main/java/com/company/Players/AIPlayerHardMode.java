@@ -3,8 +3,8 @@ import com.company.BoardPieces.Board;
 import com.company.BoardPieces.OPiece;
 import com.company.BoardPieces.Piece;
 import com.company.BoardPieces.XPiece;
-import com.company.gameLogic.MoveValidator;
-import com.company.gameLogic.GameProgress;
+import com.company.GameLogic.MoveValidator;
+import com.company.GameLogic.GameProgress;
 
 import java.util.Random;
 

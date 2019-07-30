@@ -1,7 +1,7 @@
 import com.company.BoardPieces.OPiece;
 import com.company.BoardPieces.Piece;
 import com.company.BoardPieces.Board;
-import com.company.gameLogic.GameProgress;
+import com.company.GameLogic.GameProgress;
 import com.company.BoardPieces.XPiece;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

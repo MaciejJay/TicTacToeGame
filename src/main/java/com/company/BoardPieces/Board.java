@@ -1,6 +1,6 @@
 package com.company.BoardPieces;
 
-import com.company.gameLogic.InvalidFieldIndexException;
+import com.company.GameLogic.InvalidFieldIndexException;
 
 public class Board {
     protected Piece board[][];

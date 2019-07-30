@@ -1,4 +1,4 @@
-package com.company.gameLogic;
+package com.company.GameLogic;
 
 import com.company.BoardPieces.Board;
 import com.company.BoardPieces.Piece;

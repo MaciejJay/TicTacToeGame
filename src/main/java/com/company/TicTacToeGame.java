@@ -5,8 +5,8 @@ import com.company.Menu.TicTacToeMenu;
 import com.company.BoardPieces.OPiece;
 import com.company.BoardPieces.XPiece;
 import com.company.Players.*;
-import com.company.gameLogic.GameProgress;
-import com.company.gameLogic.MoveValidator;
+import com.company.GameLogic.GameProgress;
+import com.company.GameLogic.MoveValidator;
 
 import java.util.ArrayList;
 import java.util.List;

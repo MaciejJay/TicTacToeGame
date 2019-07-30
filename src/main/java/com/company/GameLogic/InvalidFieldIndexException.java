@@ -1,4 +1,4 @@
-package com.company.gameLogic;
+package com.company.GameLogic;
 
 public class InvalidFieldIndexException extends Exception {
 
