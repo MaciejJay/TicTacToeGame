@@ -1,7 +1,7 @@
 package com.company.BoardPieces;
 
 public abstract class Piece {
-    public abstract char getSymbol();
+    public abstract String getSymbol();
 
     @Override
     public boolean equals(Object obj) {

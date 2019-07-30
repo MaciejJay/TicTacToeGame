@@ -10,6 +10,9 @@ import java.util.Random;
 
 public class AIPlayerHardMode extends Player {
 
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+
     public AIPlayerHardMode(Piece piece) {
         super(piece);
     }
@@ -31,7 +34,7 @@ public class AIPlayerHardMode extends Player {
         }
         Piece opponent;
 
-        if (getPiece().getSymbol() == 'X') {
+        if (getPiece().getSymbol() == ANSI_BLUE + 'X' + ANSI_RESET) {
             opponent = new OPiece();
         } else {
             opponent = new XPiece();

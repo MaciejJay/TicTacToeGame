@@ -72,6 +72,7 @@ public class TicTacToeGame {
             int playerNumber = moveCounter % 2;
             Player player = this.players.get(playerNumber);
             System.out.println("Player " + (playerNumber + 1) + ":");
+            System.out.println();
 
             this.board.print();
             int move = player.makeMove(board);
